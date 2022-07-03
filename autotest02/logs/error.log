@@ -1,0 +1,314 @@
+2021-06-21 15:54:24,242 - [test_regist07.py -->line:44] - ERROR:测试编号12,测试用例标题邮箱不能为空,执行失败,实际结果：{'code': 1006, 'msg': '邮箱不能为空'}
+2021-06-21 15:54:24,242 - [test_regist07.py -->line:45] - ERROR:{'code': 10066, 'msg': '邮箱不能为空'} != {'code': 1006, 'msg': '邮箱不能为空'}
+- {'code': 10066, 'msg': '邮箱不能为空'}
+?              -
+
++ {'code': 1006, 'msg': '邮箱不能为空'}
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest02\testcases\test_regist07.py", line 40, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 10066, 'msg': '邮箱不能为空'} != {'code': 1006, 'msg': '邮箱不能为空'}
+- {'code': 10066, 'msg': '邮箱不能为空'}
+?              -
+
++ {'code': 1006, 'msg': '邮箱不能为空'}
+2021-06-21 16:51:51,522 - [test_regist07.py -->line:44] - ERROR:测试编号12,测试用例标题邮箱不能为空,执行失败,实际结果：{'code': 1006, 'msg': '邮箱不能为空'}
+2021-06-21 16:51:51,522 - [test_regist07.py -->line:45] - ERROR:{'code': 10066, 'msg': '邮箱不能为空'} != {'code': 1006, 'msg': '邮箱不能为空'}
+- {'code': 10066, 'msg': '邮箱不能为空'}
+?              -
+
++ {'code': 1006, 'msg': '邮箱不能为空'}
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest02\testcases\test_regist07.py", line 40, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 10066, 'msg': '邮箱不能为空'} != {'code': 1006, 'msg': '邮箱不能为空'}
+- {'code': 10066, 'msg': '邮箱不能为空'}
+?              -
+
++ {'code': 1006, 'msg': '邮箱不能为空'}
+2021-06-22 11:30:52,333 - [test_Login_Teacher.py -->line:46] - ERROR:测试编号4,测试用例的标题为:大小写区分,执行失败！实际结果为:{'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY1Mi4zMTA0NDAzOjYzNjMyN2I5NTMxMmM3NGMyNjdjYTYwZmQyNDM0NjQyM2FkNThjYWI='}
+2021-06-22 11:30:52,334 - [test_Login_Teacher.py -->line:47] - ERROR:{'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY1M[64 chars]WI='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM2MjY1Mi4zMTA0NDAzOjYzNjMyN2I5NTMxMmM3NGMyNjdjYTYwZmQyNDM0NjQyM2FkNThjYWI='}
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest02\testcases\test_Login_Teacher.py", line 43, in test_login01
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY1M[64 chars]WI='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM2MjY1Mi4zMTA0NDAzOjYzNjMyN2I5NTMxMmM3NGMyNjdjYTYwZmQyNDM0NjQyM2FkNThjYWI='}
+2021-06-22 11:30:52,421 - [test_Login_Teacher.py -->line:46] - ERROR:测试编号7,测试用例的标题为:大小写区分,执行失败！实际结果为:{'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY1Mi4zOTcyMDc1OmJmYzYzMTNjOWY2YzliOWNlYTdiMDVkY2Q1ZjQzOTdkOTU4MjI1ODQ='}
+2021-06-22 11:30:52,422 - [test_Login_Teacher.py -->line:47] - ERROR:{'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY1M[64 chars]DQ='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM2MjY1Mi4zOTcyMDc1OmJmYzYzMTNjOWY2YzliOWNlYTdiMDVkY2Q1ZjQzOTdkOTU4MjI1ODQ='}
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest02\testcases\test_Login_Teacher.py", line 43, in test_login01
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY1M[64 chars]DQ='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM2MjY1Mi4zOTcyMDc1OmJmYzYzMTNjOWY2YzliOWNlYTdiMDVkY2Q1ZjQzOTdkOTU4MjI1ODQ='}
+2021-06-22 11:30:58,879 - [test_Login_Teacher.py -->line:46] - ERROR:测试编号4,测试用例的标题为:大小写区分,执行失败！实际结果为:{'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY1OC44NTU0NTgzOjFhYzJmNjliNGQ1Y2VkY2VmNTIxODQwZTUyZDYwM2Y0MmFmNTllYjg='}
+2021-06-22 11:30:58,879 - [test_Login_Teacher.py -->line:47] - ERROR:{'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY1O[64 chars]jg='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM2MjY1OC44NTU0NTgzOjFhYzJmNjliNGQ1Y2VkY2VmNTIxODQwZTUyZDYwM2Y0MmFmNTllYjg='}
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest02\testcases\test_Login_Teacher.py", line 43, in test_login01
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY1O[64 chars]jg='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM2MjY1OC44NTU0NTgzOjFhYzJmNjliNGQ1Y2VkY2VmNTIxODQwZTUyZDYwM2Y0MmFmNTllYjg='}
+2021-06-22 11:30:58,972 - [test_Login_Teacher.py -->line:46] - ERROR:测试编号7,测试用例的标题为:大小写区分,执行失败！实际结果为:{'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY1OC45NDEyMjk6MWQyZDg1MzkzNWMyMjg5ZDcyZDU0YjNjZmJmYzliMjkwZDA1ZWEzNg=='}
+2021-06-22 11:30:58,972 - [test_Login_Teacher.py -->line:47] - ERROR:{'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY1O[64 chars]g=='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM2MjY1OC45NDEyMjk6MWQyZDg1MzkzNWMyMjg5ZDcyZDU0YjNjZmJmYzliMjkwZDA1ZWEzNg=='}
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest02\testcases\test_Login_Teacher.py", line 43, in test_login01
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY1O[64 chars]g=='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM2MjY1OC45NDEyMjk6MWQyZDg1MzkzNWMyMjg5ZDcyZDU0YjNjZmJmYzliMjkwZDA1ZWEzNg=='}
+2021-06-22 11:31:01,870 - [test_Login_Teacher.py -->line:46] - ERROR:测试编号4,测试用例的标题为:大小写区分,执行失败！实际结果为:{'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY2MS44NDU0NjUyOjg0MjRmZDhlMTc0MTBlZDI4NTIyODk3OTAwOWRjNzE1ZTJiY2EzZTc='}
+2021-06-22 11:31:01,870 - [test_Login_Teacher.py -->line:47] - ERROR:{'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY2M[64 chars]Tc='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM2MjY2MS44NDU0NjUyOjg0MjRmZDhlMTc0MTBlZDI4NTIyODk3OTAwOWRjNzE1ZTJiY2EzZTc='}
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest02\testcases\test_Login_Teacher.py", line 43, in test_login01
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY2M[64 chars]Tc='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM2MjY2MS44NDU0NjUyOjg0MjRmZDhlMTc0MTBlZDI4NTIyODk3OTAwOWRjNzE1ZTJiY2EzZTc='}
+2021-06-22 11:31:28,469 - [test_Login_Teacher.py -->line:46] - ERROR:测试编号4,测试用例的标题为:大小写区分,执行失败！实际结果为:{'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY4OC40NDMzNjE6Y2UyNWJkODlmNGQzMTA3ZmJlMTg2NWM5Y2Q3YzRkODE1Yzk4NzRjYQ=='}
+2021-06-22 11:31:28,469 - [test_Login_Teacher.py -->line:47] - ERROR: :: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000,
+ 'msg': '登录成功',
+ 'token': 'MTYyNDM2MjY4OC40NDMzNjE6Y2UyNWJkODlmNGQzMTA3ZmJlMTg2NWM5Y2Q3YzRkODE1Yzk4NzRjYQ=='}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY4O[64 chars]Q=='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM2MjY4OC40NDMzNjE6Y2UyNWJkODlmNGQzMTA3ZmJlMTg2NWM5Y2Q3YzRkODE1Yzk4NzRjYQ=='}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest02\testcases\test_Login_Teacher.py", line 43, in test_login01
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000,
+ 'msg': '登录成功',
+ 'token': 'MTYyNDM2MjY4OC40NDMzNjE6Y2UyNWJkODlmNGQzMTA3ZmJlMTg2NWM5Y2Q3YzRkODE1Yzk4NzRjYQ=='}
+2021-06-22 11:31:28,557 - [test_Login_Teacher.py -->line:46] - ERROR:测试编号7,测试用例的标题为:大小写区分,执行失败！实际结果为:{'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY4OC41MzMxMjE2OmJiMzViYjY2MmIzZjViNTE3MTJhYTkzNWNmZTRhYTJlODE0ZjJjMmY='}
+2021-06-22 11:31:28,557 - [test_Login_Teacher.py -->line:47] - ERROR: :: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000,
+ 'msg': '登录成功',
+ 'token': 'MTYyNDM2MjY4OC41MzMxMjE2OmJiMzViYjY2MmIzZjViNTE3MTJhYTkzNWNmZTRhYTJlODE0ZjJjMmY='}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MjY4O[64 chars]mY='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM2MjY4OC41MzMxMjE2OmJiMzViYjY2MmIzZjViNTE3MTJhYTkzNWNmZTRhYTJlODE0ZjJjMmY='}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest02\testcases\test_Login_Teacher.py", line 43, in test_login01
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000,
+ 'msg': '登录成功',
+ 'token': 'MTYyNDM2MjY4OC41MzMxMjE2OmJiMzViYjY2MmIzZjViNTE3MTJhYTkzNWNmZTRhYTJlODE0ZjJjMmY='}
+2021-06-22 11:38:17,209 - [test_Login_Teacher.py -->line:45] - ERROR:测试编号4,测试用例的标题为:大小写区分,执行失败！实际结果为:{'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MzA5Ny4xODMyNjMzOjJjMjhlYzkzOTU2ZDAxMzBiMjJhMDM0MTE0OTQ0YzYyMWU0OTVmZGY='}
+2021-06-22 11:38:17,209 - [test_Login_Teacher.py -->line:46] - ERROR: :: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000,
+ 'msg': '登录成功',
+ 'token': 'MTYyNDM2MzA5Ny4xODMyNjMzOjJjMjhlYzkzOTU2ZDAxMzBiMjJhMDM0MTE0OTQ0YzYyMWU0OTVmZGY='}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MzA5N[64 chars]GY='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM2MzA5Ny4xODMyNjMzOjJjMjhlYzkzOTU2ZDAxMzBiMjJhMDM0MTE0OTQ0YzYyMWU0OTVmZGY='}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest02\testcases\test_Login_Teacher.py", line 42, in test_login01
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000,
+ 'msg': '登录成功',
+ 'token': 'MTYyNDM2MzA5Ny4xODMyNjMzOjJjMjhlYzkzOTU2ZDAxMzBiMjJhMDM0MTE0OTQ0YzYyMWU0OTVmZGY='}
+2021-06-22 11:38:17,299 - [test_Login_Teacher.py -->line:45] - ERROR:测试编号7,测试用例的标题为:大小写区分,执行失败！实际结果为:{'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MzA5Ny4yNzMwMjI3OjU2OWM3YTIxNWM5NmZhMzM5YjhmMTU5NTFmN2JhZDA1OGIyY2I2YWE='}
+2021-06-22 11:38:17,299 - [test_Login_Teacher.py -->line:46] - ERROR: :: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000,
+ 'msg': '登录成功',
+ 'token': 'MTYyNDM2MzA5Ny4yNzMwMjI3OjU2OWM3YTIxNWM5NmZhMzM5YjhmMTU5NTFmN2JhZDA1OGIyY2I2YWE='}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM2MzA5N[64 chars]WE='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM2MzA5Ny4yNzMwMjI3OjU2OWM3YTIxNWM5NmZhMzM5YjhmMTU5NTFmN2JhZDA1OGIyY2I2YWE='}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest02\testcases\test_Login_Teacher.py", line 42, in test_login01
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000,
+ 'msg': '登录成功',
+ 'token': 'MTYyNDM2MzA5Ny4yNzMwMjI3OjU2OWM3YTIxNWM5NmZhMzM5YjhmMTU5NTFmN2JhZDA1OGIyY2I2YWE='}
+2021-06-22 14:09:30,148 - [test_Login_Teacher.py -->line:45] - ERROR:测试编号4,测试用例的标题为:大小写区分,执行失败！实际结果为:{'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM3MjE3MC4xMjIyNjcyOmRkZGFkOWY5OGFlZTMxODdkZWJlZGIxNWRkMTY0MDI1OTY5NTk4OWY='}
+2021-06-22 14:09:30,148 - [test_Login_Teacher.py -->line:46] - ERROR: :: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000,
+ 'msg': '登录成功',
+ 'token': 'MTYyNDM3MjE3MC4xMjIyNjcyOmRkZGFkOWY5OGFlZTMxODdkZWJlZGIxNWRkMTY0MDI1OTY5NTk4OWY='}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM3MjE3M[64 chars]WY='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM3MjE3MC4xMjIyNjcyOmRkZGFkOWY5OGFlZTMxODdkZWJlZGIxNWRkMTY0MDI1OTY5NTk4OWY='}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest02\testcases\test_Login_Teacher.py", line 42, in test_login01
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000,
+ 'msg': '登录成功',
+ 'token': 'MTYyNDM3MjE3MC4xMjIyNjcyOmRkZGFkOWY5OGFlZTMxODdkZWJlZGIxNWRkMTY0MDI1OTY5NTk4OWY='}
+2021-06-22 14:09:30,236 - [test_Login_Teacher.py -->line:45] - ERROR:测试编号7,测试用例的标题为:大小写区分,执行失败！实际结果为:{'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM3MjE3MC4yMTMwMjQ2OjhjNjdhNmVjNjRkMTc3MzkzYzMzZDNhMGJkNjllYWU5Nzg3NWZhOGM='}
+2021-06-22 14:09:30,236 - [test_Login_Teacher.py -->line:46] - ERROR: :: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000,
+ 'msg': '登录成功',
+ 'token': 'MTYyNDM3MjE3MC4yMTMwMjQ2OjhjNjdhNmVjNjRkMTc3MzkzYzMzZDNhMGJkNjllYWU5Nzg3NWZhOGM='}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000, 'msg': '登录成功', 'token': 'MTYyNDM3MjE3M[64 chars]GM='}
+- {'code': 1007, 'msg': '用户名或者密码错误'}
++ {'code': 1000,
++  'msg': '登录成功',
++  'token': 'MTYyNDM3MjE3MC4yMTMwMjQ2OjhjNjdhNmVjNjRkMTc3MzkzYzMzZDNhMGJkNjllYWU5Nzg3NWZhOGM='}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest02\testcases\test_Login_Teacher.py", line 42, in test_login01
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1007, 'msg': '用户名或者密码错误'} != {'code': 1000,
+ 'msg': '登录成功',
+ 'token': 'MTYyNDM3MjE3MC4yMTMwMjQ2OjhjNjdhNmVjNjRkMTc3MzkzYzMzZDNhMGJkNjllYWU5Nzg3NWZhOGM='}

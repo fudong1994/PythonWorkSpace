@@ -1,0 +1,25 @@
+2021-06-16 16:14:00,243 - [logger01.py -->line:53] - ERROR:error级别的信息
+2021-06-16 16:18:34,020 - [logger01.py -->line:55] - ERROR:error级别的信息
+2021-06-16 16:18:35,337 - [logger01.py -->line:62] - ERROR:该方法报异常！！
+2021-06-16 16:18:35,337 - [logger01.py -->line:63] - ERROR:division by zero
+Traceback (most recent call last):
+  File "D:/Tools/PythonWorkSpace/day16/log_study/logger01.py", line 60, in <module>
+    res = 20 / int(num)
+ZeroDivisionError: division by zero
+2021-06-16 17:06:34,177 - [logger01.py -->line:55] - ERROR:error级别的信息 - logging
+2021-06-16 17:06:43,451 - [logger01.py -->line:55] - ERROR:error级别的信息 - root
+2021-06-16 17:08:31,473 - [logger01.py -->line:62] - ERROR:该方法报异常！！ - root
+2021-06-16 17:08:31,474 - [logger01.py -->line:63] - ERROR:division by zero - root
+Traceback (most recent call last):
+  File "D:/Tools/PythonWorkSpace/day16/log_study/logger01.py", line 60, in <module>
+    res = 20 / int(num)
+ZeroDivisionError: division by zero
+2021-06-16 17:13:00,488 - [logger01.py -->line:55] - ERROR:error级别的信息
+2021-06-16 17:13:13,493 - [logger01.py -->line:55] - ERROR:error级别的信息
+2021-06-16 17:28:44,559 - [log_utils.py -->line:50] - ERROR:封装工具类出错了！
+2021-06-16 17:30:08,790 - [logger02.py -->line:15] - ERROR:该方法报异常！！
+2021-06-16 17:30:08,790 - [logger02.py -->line:16] - ERROR:division by zero
+Traceback (most recent call last):
+  File "D:/Tools/PythonWorkSpace/day16/log_study/logger02.py", line 13, in <module>
+    res = 20 / int(num)
+ZeroDivisionError: division by zero

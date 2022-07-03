@@ -1,0 +1,1077 @@
+2021-06-17 10:45:57,631 - [test_regist07.py -->line:27] - ERROR:测试编号1,测试用例标题注册成功,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:45:57,631 - [test_regist07.py -->line:28] - ERROR: :: {'code': 9999, 'msg': '注册成功'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 9999, 'msg': '注册成功'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 9999, 'msg': '注册成功'}
++ {'code': 9999, 'msg': '注册成功！'}
+?                            +
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 9999, 'msg': '注册成功'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:45:57,760 - [test_regist07.py -->line:27] - ERROR:测试编号3,测试用例标题用戶名有效边界值,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:45:57,760 - [test_regist07.py -->line:28] - ERROR: :: {'code': 9999, 'msg': '注册成功'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 9999, 'msg': '注册成功'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 9999, 'msg': '注册成功'}
++ {'code': 9999, 'msg': '注册成功！'}
+?                            +
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 9999, 'msg': '注册成功'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:45:57,823 - [test_regist07.py -->line:27] - ERROR:测试编号4,测试用例标题用戶名无效边界值,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:45:57,823 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1007, 'msg': '用户名必须6-8位'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1007, 'msg': '用户名必须6-8位'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1007, 'msg': '用户名必须6-8位'}
++ {'code': 9999, 'msg': '注册成功！'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1007, 'msg': '用户名必须6-8位'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:45:57,889 - [test_regist07.py -->line:27] - ERROR:测试编号5,测试用例标题用戶名已注册,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:45:57,889 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1009, 'msg': '用户名已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1009, 'msg': '用户名已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1009, 'msg': '用户名已被注册'}
+?          ^^^           -----
+
++ {'code': 9999, 'msg': '注册成功！'}
+?          ^^^             +++
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1009, 'msg': '用户名已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:45:58,033 - [test_regist07.py -->line:27] - ERROR:测试编号8,测试用例标题密码无效边界值,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:45:58,034 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1008, 'msg': '密码必须7-11位'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1008, 'msg': '密码必须7-11位'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1008, 'msg': '密码必须7-11位'}
++ {'code': 9999, 'msg': '注册成功！'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1008, 'msg': '密码必须7-11位'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:45:58,157 - [test_regist07.py -->line:27] - ERROR:测试编号10,测试用例标题确认密码错误,执行失败,实际结果：{'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:45:58,157 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+- {'code': 1006, 'msg': '两次密码输入不一致'}
+?             ^          ^^    -
+
++ {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+?             ^          ^^^^^^^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:45:58,196 - [test_regist07.py -->line:27] - ERROR:测试编号11,测试用例标题确认密码区分大小写,执行失败,实际结果：{'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:45:58,196 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+- {'code': 1006, 'msg': '两次密码输入不一致'}
+?             ^          ^^    -
+
++ {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+?             ^          ^^^^^^^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:45:58,236 - [test_regist07.py -->line:27] - ERROR:测试编号12,测试用例标题手机号为空,执行失败,实际结果：{'code': 1007, 'msg': '手机号不能为空'}
+2021-06-17 10:45:58,236 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1004, 'msg': '手机号码不能为空'} != {'code': 1007, 'msg': '手机号不能为空'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1004, 'msg': '手机号码不能为空'} != {'code': 1007, 'msg': '手机号不能为空'}
+- {'code': 1004, 'msg': '手机号码不能为空'}
+?             ^             -
+
++ {'code': 1007, 'msg': '手机号不能为空'}
+?             ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1004, 'msg': '手机号码不能为空'} != {'code': 1007, 'msg': '手机号不能为空'}
+2021-06-17 10:45:58,289 - [test_regist07.py -->line:27] - ERROR:测试编号13,测试用例标题手机号已注册,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:45:58,290 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1010, 'msg': '手机号已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1010, 'msg': '手机号已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1010, 'msg': '手机号已被注册'}
++ {'code': 9999, 'msg': '注册成功！'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1010, 'msg': '手机号已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:45:58,350 - [test_regist07.py -->line:27] - ERROR:测试编号15,测试用例标题邮箱已注册,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:45:58,350 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1011, 'msg': '邮箱已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1011, 'msg': '邮箱已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1011, 'msg': '邮箱已被注册'}
+?          ^^^^          ----
+
++ {'code': 9999, 'msg': '注册成功！'}
+?          ^^^^            +++
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1011, 'msg': '邮箱已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:48:59,890 - [test_regist07.py -->line:27] - ERROR:测试编号1,测试用例标题注册成功,执行失败,实际结果：{'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 10:48:59,890 - [test_regist07.py -->line:28] - ERROR: :: {'code': 9999, 'msg': '注册成功！'} != {'code': 1009, 'msg': '手机号已被注册'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 9999, 'msg': '注册成功！'} != {'code': 1009, 'msg': '手机号已被注册'}
+- {'code': 9999, 'msg': '注册成功！'}
+?          ^^^             ---
+
++ {'code': 1009, 'msg': '手机号已被注册'}
+?          ^^^           +++++
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 9999, 'msg': '注册成功！'} != {'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 10:49:00,013 - [test_regist07.py -->line:27] - ERROR:测试编号3,测试用例标题用戶名有效边界值,执行失败,实际结果：{'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 10:49:00,013 - [test_regist07.py -->line:28] - ERROR: :: {'code': 9999, 'msg': '注册成功'} != {'code': 1009, 'msg': '手机号已被注册'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 9999, 'msg': '注册成功'} != {'code': 1009, 'msg': '手机号已被注册'}
+- {'code': 9999, 'msg': '注册成功'}
+?          ^^^             --
+
++ {'code': 1009, 'msg': '手机号已被注册'}
+?          ^^^           +++++
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 9999, 'msg': '注册成功'} != {'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 10:49:00,077 - [test_regist07.py -->line:27] - ERROR:测试编号4,测试用例标题用戶名无效边界值,执行失败,实际结果：{'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 10:49:00,077 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 1009, 'msg': '手机号已被注册'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 1009, 'msg': '手机号已被注册'}
+- {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'}
++ {'code': 1009, 'msg': '手机号已被注册'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 10:49:00,139 - [test_regist07.py -->line:27] - ERROR:测试编号5,测试用例标题用戶名已注册,执行失败,实际结果：{'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 10:49:00,140 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1009, 'msg': '用户名已被注册'} != {'code': 1009, 'msg': '手机号已被注册'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1009, 'msg': '用户名已被注册'} != {'code': 1009, 'msg': '手机号已被注册'}
+- {'code': 1009, 'msg': '用户名已被注册'}
+?                        ^^^
+
++ {'code': 1009, 'msg': '手机号已被注册'}
+?                        ^^^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1009, 'msg': '用户名已被注册'} != {'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 10:49:00,271 - [test_regist07.py -->line:27] - ERROR:测试编号8,测试用例标题密码无效边界值,执行失败,实际结果：{'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 10:49:00,271 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1008, 'msg': '密码必须7-11位'} != {'code': 1009, 'msg': '手机号已被注册'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1008, 'msg': '密码必须7-11位'} != {'code': 1009, 'msg': '手机号已被注册'}
+- {'code': 1008, 'msg': '密码必须7-11位'}
++ {'code': 1009, 'msg': '手机号已被注册'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1008, 'msg': '密码必须7-11位'} != {'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 10:49:00,347 - [test_regist07.py -->line:27] - ERROR:测试编号10,测试用例标题确认密码错误,执行失败,实际结果：{'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:49:00,347 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+- {'code': 1006, 'msg': '两次密码输入不一致'}
+?             ^          ^^    -
+
++ {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+?             ^          ^^^^^^^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:49:00,385 - [test_regist07.py -->line:27] - ERROR:测试编号11,测试用例标题确认密码区分大小写,执行失败,实际结果：{'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:49:00,385 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+- {'code': 1006, 'msg': '两次密码输入不一致'}
+?             ^          ^^    -
+
++ {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+?             ^          ^^^^^^^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:49:00,424 - [test_regist07.py -->line:27] - ERROR:测试编号12,测试用例标题手机号为空,执行失败,实际结果：{'code': 1007, 'msg': '手机号不能为空'}
+2021-06-17 10:49:00,424 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1004, 'msg': '手机号码不能为空'} != {'code': 1007, 'msg': '手机号不能为空'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1004, 'msg': '手机号码不能为空'} != {'code': 1007, 'msg': '手机号不能为空'}
+- {'code': 1004, 'msg': '手机号码不能为空'}
+?             ^             -
+
++ {'code': 1007, 'msg': '手机号不能为空'}
+?             ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1004, 'msg': '手机号码不能为空'} != {'code': 1007, 'msg': '手机号不能为空'}
+2021-06-17 10:49:00,464 - [test_regist07.py -->line:27] - ERROR:测试编号13,测试用例标题手机号已注册,执行失败,实际结果：{'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 10:49:00,464 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1010, 'msg': '手机号已被注册'} != {'code': 1009, 'msg': '手机号已被注册'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1010, 'msg': '手机号已被注册'} != {'code': 1009, 'msg': '手机号已被注册'}
+- {'code': 1010, 'msg': '手机号已被注册'}
+?            -
+
++ {'code': 1009, 'msg': '手机号已被注册'}
+?             +
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1010, 'msg': '手机号已被注册'} != {'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 10:49:00,521 - [test_regist07.py -->line:27] - ERROR:测试编号15,测试用例标题邮箱已注册,执行失败,实际结果：{'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 10:49:00,521 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1011, 'msg': '邮箱已被注册'} != {'code': 1009, 'msg': '手机号已被注册'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1011, 'msg': '邮箱已被注册'} != {'code': 1009, 'msg': '手机号已被注册'}
+- {'code': 1011, 'msg': '邮箱已被注册'}
+?            ^^          ^^
+
++ {'code': 1009, 'msg': '手机号已被注册'}
+?            ^^          ^^^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1011, 'msg': '邮箱已被注册'} != {'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 10:49:31,731 - [test_regist07.py -->line:27] - ERROR:测试编号3,测试用例标题用戶名有效边界值,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:49:31,731 - [test_regist07.py -->line:28] - ERROR: :: {'code': 9999, 'msg': '注册成功'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 9999, 'msg': '注册成功'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 9999, 'msg': '注册成功'}
++ {'code': 9999, 'msg': '注册成功！'}
+?                            +
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 9999, 'msg': '注册成功'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:49:31,800 - [test_regist07.py -->line:27] - ERROR:测试编号4,测试用例标题用戶名无效边界值,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:49:31,800 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'}
++ {'code': 9999, 'msg': '注册成功！'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:49:31,867 - [test_regist07.py -->line:27] - ERROR:测试编号5,测试用例标题用戶名已注册,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:49:31,867 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1009, 'msg': '用户名已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1009, 'msg': '用户名已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1009, 'msg': '用户名已被注册'}
+?          ^^^           -----
+
++ {'code': 9999, 'msg': '注册成功！'}
+?          ^^^             +++
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1009, 'msg': '用户名已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:49:31,955 - [test_regist07.py -->line:27] - ERROR:测试编号8,测试用例标题密码无效边界值,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:49:31,955 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1008, 'msg': '密码必须7-11位'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1008, 'msg': '密码必须7-11位'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1008, 'msg': '密码必须7-11位'}
++ {'code': 9999, 'msg': '注册成功！'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1008, 'msg': '密码必须7-11位'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:49:32,024 - [test_regist07.py -->line:27] - ERROR:测试编号10,测试用例标题确认密码错误,执行失败,实际结果：{'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:49:32,024 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+- {'code': 1006, 'msg': '两次密码输入不一致'}
+?             ^          ^^    -
+
++ {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+?             ^          ^^^^^^^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:49:32,063 - [test_regist07.py -->line:27] - ERROR:测试编号11,测试用例标题确认密码区分大小写,执行失败,实际结果：{'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:49:32,063 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+- {'code': 1006, 'msg': '两次密码输入不一致'}
+?             ^          ^^    -
+
++ {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+?             ^          ^^^^^^^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:49:32,100 - [test_regist07.py -->line:27] - ERROR:测试编号12,测试用例标题手机号为空,执行失败,实际结果：{'code': 1007, 'msg': '手机号不能为空'}
+2021-06-17 10:49:32,100 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1004, 'msg': '手机号码不能为空'} != {'code': 1007, 'msg': '手机号不能为空'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1004, 'msg': '手机号码不能为空'} != {'code': 1007, 'msg': '手机号不能为空'}
+- {'code': 1004, 'msg': '手机号码不能为空'}
+?             ^             -
+
++ {'code': 1007, 'msg': '手机号不能为空'}
+?             ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1004, 'msg': '手机号码不能为空'} != {'code': 1007, 'msg': '手机号不能为空'}
+2021-06-17 10:49:32,143 - [test_regist07.py -->line:27] - ERROR:测试编号13,测试用例标题手机号已注册,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:49:32,143 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1010, 'msg': '手机号已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1010, 'msg': '手机号已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1010, 'msg': '手机号已被注册'}
++ {'code': 9999, 'msg': '注册成功！'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1010, 'msg': '手机号已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:49:32,197 - [test_regist07.py -->line:27] - ERROR:测试编号15,测试用例标题邮箱已注册,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:49:32,197 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1011, 'msg': '邮箱已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1011, 'msg': '邮箱已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1011, 'msg': '邮箱已被注册'}
+?          ^^^^          ----
+
++ {'code': 9999, 'msg': '注册成功！'}
+?          ^^^^            +++
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1011, 'msg': '邮箱已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:50:48,898 - [test_regist07.py -->line:27] - ERROR:测试编号4,测试用例标题用戶名无效边界值,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:50:48,899 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'}
++ {'code': 9999, 'msg': '注册成功！'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:50:48,966 - [test_regist07.py -->line:27] - ERROR:测试编号5,测试用例标题用戶名已注册,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:50:48,966 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1009, 'msg': '用户名已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1009, 'msg': '用户名已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1009, 'msg': '用户名已被注册'}
+?          ^^^           -----
+
++ {'code': 9999, 'msg': '注册成功！'}
+?          ^^^             +++
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1009, 'msg': '用户名已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:50:49,096 - [test_regist07.py -->line:27] - ERROR:测试编号8,测试用例标题密码无效边界值,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:50:49,096 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'}
++ {'code': 9999, 'msg': '注册成功！'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:50:49,208 - [test_regist07.py -->line:27] - ERROR:测试编号10,测试用例标题确认密码错误,执行失败,实际结果：{'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:50:49,208 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+- {'code': 1006, 'msg': '两次密码输入不一致'}
+?             ^          ^^    -
+
++ {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+?             ^          ^^^^^^^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:50:49,250 - [test_regist07.py -->line:27] - ERROR:测试编号11,测试用例标题确认密码区分大小写,执行失败,实际结果：{'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:50:49,250 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+- {'code': 1006, 'msg': '两次密码输入不一致'}
+?             ^          ^^    -
+
++ {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+?             ^          ^^^^^^^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1006, 'msg': '两次密码输入不一致'} != {'code': 1005, 'msg': '确认密码必须和密码输入一致'}
+2021-06-17 10:50:49,283 - [test_regist07.py -->line:27] - ERROR:测试编号12,测试用例标题手机号为空,执行失败,实际结果：{'code': 1007, 'msg': '手机号不能为空'}
+2021-06-17 10:50:49,283 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1004, 'msg': '手机号码不能为空'} != {'code': 1007, 'msg': '手机号不能为空'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1004, 'msg': '手机号码不能为空'} != {'code': 1007, 'msg': '手机号不能为空'}
+- {'code': 1004, 'msg': '手机号码不能为空'}
+?             ^             -
+
++ {'code': 1007, 'msg': '手机号不能为空'}
+?             ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1004, 'msg': '手机号码不能为空'} != {'code': 1007, 'msg': '手机号不能为空'}
+2021-06-17 10:50:49,330 - [test_regist07.py -->line:27] - ERROR:测试编号13,测试用例标题手机号已注册,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:50:49,330 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1010, 'msg': '手机号已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1010, 'msg': '手机号已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1010, 'msg': '手机号已被注册'}
++ {'code': 9999, 'msg': '注册成功！'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1010, 'msg': '手机号已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:50:49,380 - [test_regist07.py -->line:27] - ERROR:测试编号15,测试用例标题邮箱已注册,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 10:50:49,381 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1011, 'msg': '邮箱已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1011, 'msg': '邮箱已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1011, 'msg': '邮箱已被注册'}
+?          ^^^^          ----
+
++ {'code': 9999, 'msg': '注册成功！'}
+?          ^^^^            +++
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1011, 'msg': '邮箱已被注册'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 11:12:31,848 - [test_regist07.py -->line:27] - ERROR:测试编号7,测试用例标题用户名小于6位,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 11:12:31,848 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'}
++ {'code': 9999, 'msg': '注册成功！'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 11:12:31,919 - [test_regist07.py -->line:27] - ERROR:测试编号8,测试用例标题用户名大于18位,执行失败,实际结果：{'code': 9999, 'msg': '注册成功！'}
+2021-06-17 11:12:31,919 - [test_regist07.py -->line:28] - ERROR: :: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+- {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'}
++ {'code': 9999, 'msg': '注册成功！'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 1004, 'msg': '用户名和密码必须在6-18位之间'} != {'code': 9999, 'msg': '注册成功！'}
+2021-06-17 11:19:13,512 - [test_regist07.py -->line:27] - ERROR:测试编号1,测试用例标题正确流程,执行失败,实际结果：{'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 11:19:13,512 - [test_regist07.py -->line:28] - ERROR: :: {'code': 9999, 'msg': '注册成功！'} != {'code': 1009, 'msg': '手机号已被注册'}
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 9999, 'msg': '注册成功！'} != {'code': 1009, 'msg': '手机号已被注册'}
+- {'code': 9999, 'msg': '注册成功！'}
+?          ^^^             ---
+
++ {'code': 1009, 'msg': '手机号已被注册'}
+?          ^^^           +++++
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 24, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\PyCharm Community Edition 2020.1.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {'code': 9999, 'msg': '注册成功！'} != {'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 11:27:33,461 - [test_login07.py -->line:32] - ERROR:测试编号1,测试用例的标题为:登录成功,执行失败！实际结果为:{'code': 1003, 'msg': '用户名或密码错误'}
+2021-06-17 11:27:33,461 - [test_login07.py -->line:32] - ERROR:测试编号1,测试用例的标题为:登录成功,执行失败！实际结果为:{'code': 1003, 'msg': '用户名或密码错误'}
+2021-06-17 11:27:33,461 - [test_login07.py -->line:33] - ERROR:{'code': 9999, 'msg': '登录成功'} != {'code': 1003, 'msg': '用户名或密码错误'}
+- {'code': 9999, 'msg': '登录成功'}
++ {'code': 1003, 'msg': '用户名或密码错误'}
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_login07.py", line 29, in test_login01
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 9999, 'msg': '登录成功'} != {'code': 1003, 'msg': '用户名或密码错误'}
+- {'code': 9999, 'msg': '登录成功'}
++ {'code': 1003, 'msg': '用户名或密码错误'}
+2021-06-17 11:27:33,461 - [test_login07.py -->line:33] - ERROR:{'code': 9999, 'msg': '登录成功'} != {'code': 1003, 'msg': '用户名或密码错误'}
+- {'code': 9999, 'msg': '登录成功'}
++ {'code': 1003, 'msg': '用户名或密码错误'}
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_login07.py", line 29, in test_login01
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 9999, 'msg': '登录成功'} != {'code': 1003, 'msg': '用户名或密码错误'}
+- {'code': 9999, 'msg': '登录成功'}
++ {'code': 1003, 'msg': '用户名或密码错误'}
+2021-06-17 11:39:35,229 - [test_regist07.py -->line:41] - ERROR:测试编号5,测试用例标题用户名已经存在,执行失败,实际结果：{'code': 1009, 'msg': '手机号已被注册'}
+2021-06-17 11:39:35,230 - [test_regist07.py -->line:42] - ERROR:{'code': 1008, 'msg': '用户名已存在'} != {'code': 1009, 'msg': '手机号已被注册'}
+- {'code': 1008, 'msg': '用户名已存在'}
+?             ^          ^^^ ^^
+
++ {'code': 1009, 'msg': '手机号已被注册'}
+?             ^          ^^^ ^^^
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\day16\homework\test_regist07.py", line 38, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1008, 'msg': '用户名已存在'} != {'code': 1009, 'msg': '手机号已被注册'}
+- {'code': 1008, 'msg': '用户名已存在'}
+?             ^          ^^^ ^^
+
++ {'code': 1009, 'msg': '手机号已被注册'}
+?             ^          ^^^ ^^^
+

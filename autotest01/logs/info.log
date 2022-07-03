@@ -1,0 +1,72 @@
+2021-06-21 11:44:39,538 - [test_login07.py -->line:50] - INFO:测试编号1,测试用例的标题为:登录成功,执行成功！
+2021-06-21 11:44:39,585 - [test_login07.py -->line:50] - INFO:测试编号2,测试用例的标题为:用户名为空,执行成功！
+2021-06-21 11:44:39,647 - [test_login07.py -->line:50] - INFO:测试编号3,测试用例的标题为:用户名或密码错误,执行成功！
+2021-06-21 11:44:39,695 - [test_login07.py -->line:50] - INFO:测试编号4,测试用例的标题为:密码为空,执行成功！
+2021-06-21 11:44:39,742 - [test_login07.py -->line:50] - INFO:测试编号5,测试用例的标题为:用户名或密码错误,执行成功！
+2021-06-21 11:44:39,818 - [test_regist07.py -->line:49] - INFO:测试编号1,测试用例标题正确流程,执行成功
+2021-06-21 11:44:39,865 - [test_regist07.py -->line:49] - INFO:测试编号2,测试用例标题用户名为空,执行成功
+2021-06-21 11:44:39,927 - [test_regist07.py -->line:49] - INFO:测试编号3,测试用例标题密码为空,执行成功
+2021-06-21 11:44:39,958 - [test_regist07.py -->line:49] - INFO:测试编号4,测试用例标题确认密码不能为空,执行成功
+2021-06-21 11:44:40,005 - [test_regist07.py -->line:49] - INFO:测试编号5,测试用例标题用户名已经存在,执行成功
+2021-06-21 11:44:40,036 - [test_regist07.py -->line:49] - INFO:测试编号6,测试用例标题密码和确认密码不一致,执行成功
+2021-06-21 11:44:40,068 - [test_regist07.py -->line:49] - INFO:测试编号7,测试用例标题用户名小于6位,执行成功
+2021-06-21 11:44:40,099 - [test_regist07.py -->line:49] - INFO:测试编号8,测试用例标题用户名大于18位,执行成功
+2021-06-21 11:44:40,130 - [test_regist07.py -->line:49] - INFO:测试编号9,测试用例标题密码小于6位,执行成功
+2021-06-21 11:44:40,161 - [test_regist07.py -->line:49] - INFO:测试编号10,测试用例标题密码大于18位,执行成功
+2021-06-21 11:44:40,194 - [test_regist07.py -->line:49] - INFO:测试编号11,测试用例标题密码17位,执行成功
+2021-06-21 11:44:40,225 - [test_regist07.py -->line:43] - ERROR:测试编号12,测试用例标题邮箱不能为空,执行失败,实际结果：{'code': 1006, 'msg': '邮箱不能为空'}
+2021-06-21 11:44:40,225 - [test_regist07.py -->line:44] - ERROR:{'code': 10066, 'msg': '邮箱不能为空'} != {'code': 1006, 'msg': '邮箱不能为空'}
+- {'code': 10066, 'msg': '邮箱不能为空'}
+?              -
+
++ {'code': 1006, 'msg': '邮箱不能为空'}
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest01\testcases\test_regist07.py", line 39, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 10066, 'msg': '邮箱不能为空'} != {'code': 1006, 'msg': '邮箱不能为空'}
+- {'code': 10066, 'msg': '邮箱不能为空'}
+?              -
+
++ {'code': 1006, 'msg': '邮箱不能为空'}
+2021-06-21 13:20:14,624 - [test_login07.py -->line:50] - INFO:测试编号1,测试用例的标题为:登录成功,执行成功！
+2021-06-21 13:20:14,687 - [test_login07.py -->line:50] - INFO:测试编号2,测试用例的标题为:用户名为空,执行成功！
+2021-06-21 13:20:14,735 - [test_login07.py -->line:50] - INFO:测试编号3,测试用例的标题为:用户名或密码错误,执行成功！
+2021-06-21 13:20:14,797 - [test_login07.py -->line:50] - INFO:测试编号4,测试用例的标题为:密码为空,执行成功！
+2021-06-21 13:20:14,860 - [test_login07.py -->line:50] - INFO:测试编号5,测试用例的标题为:用户名或密码错误,执行成功！
+2021-06-21 13:20:14,938 - [test_regist07.py -->line:49] - INFO:测试编号1,测试用例标题正确流程,执行成功
+2021-06-21 13:20:14,985 - [test_regist07.py -->line:49] - INFO:测试编号2,测试用例标题用户名为空,执行成功
+2021-06-21 13:20:15,047 - [test_regist07.py -->line:49] - INFO:测试编号3,测试用例标题密码为空,执行成功
+2021-06-21 13:20:15,095 - [test_regist07.py -->line:49] - INFO:测试编号4,测试用例标题确认密码不能为空,执行成功
+2021-06-21 13:20:15,169 - [test_regist07.py -->line:49] - INFO:测试编号5,测试用例标题用户名已经存在,执行成功
+2021-06-21 13:20:15,216 - [test_regist07.py -->line:49] - INFO:测试编号6,测试用例标题密码和确认密码不一致,执行成功
+2021-06-21 13:20:15,279 - [test_regist07.py -->line:49] - INFO:测试编号7,测试用例标题用户名小于6位,执行成功
+2021-06-21 13:20:15,326 - [test_regist07.py -->line:49] - INFO:测试编号8,测试用例标题用户名大于18位,执行成功
+2021-06-21 13:20:15,373 - [test_regist07.py -->line:49] - INFO:测试编号9,测试用例标题密码小于6位,执行成功
+2021-06-21 13:20:15,389 - [test_regist07.py -->line:49] - INFO:测试编号10,测试用例标题密码大于18位,执行成功
+2021-06-21 13:20:15,420 - [test_regist07.py -->line:49] - INFO:测试编号11,测试用例标题密码17位,执行成功
+2021-06-21 13:20:15,451 - [test_regist07.py -->line:43] - ERROR:测试编号12,测试用例标题邮箱不能为空,执行失败,实际结果：{'code': 1006, 'msg': '邮箱不能为空'}
+2021-06-21 13:20:15,451 - [test_regist07.py -->line:44] - ERROR:{'code': 10066, 'msg': '邮箱不能为空'} != {'code': 1006, 'msg': '邮箱不能为空'}
+- {'code': 10066, 'msg': '邮箱不能为空'}
+?              -
+
++ {'code': 1006, 'msg': '邮箱不能为空'}
+Traceback (most recent call last):
+  File "D:\Tools\PythonWorkSpace\autotest01\testcases\test_regist07.py", line 39, in test_register
+    self.assertEqual(eval(case.expect), res_body)
+  File "D:\Tools\Python\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Tools\Python\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Tools\Python\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 10066, 'msg': '邮箱不能为空'} != {'code': 1006, 'msg': '邮箱不能为空'}
+- {'code': 10066, 'msg': '邮箱不能为空'}
+?              -
+
++ {'code': 1006, 'msg': '邮箱不能为空'}
